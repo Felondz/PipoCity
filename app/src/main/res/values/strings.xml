@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">PipoCity</string>
+    <string name="cafes">Cafés</string>
+    <string name="cafes_res">Compárte algo caliente</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="restaurantes_res">Sabores locales</string>
+    <string name="cultural">Sitios Culturales</string>
+    <string name="cultural_res">Conoce nuestros origenes</string>
+    <string name="bares">Bares</string>
+    <string name="bares_res">Una buena copa</string>
+    <string name="bar_01">La Ola Marina</string>
+    <string name="bar_01_direccion">Dirección: Playa Paraíso, Av. Costanera 123</string>
+    <string name="bar_01_horario">Horario: Lunes a Domingo, 11:00 AM - 2:00 AM (Música en vivo los fines de semana)</string>
+    <string name="bar_01_Slogan">¡La Ola Marina, donde la fiesta nunca termina!</string>
+    <string name="bar_01_detalles">Siente la brisa marina y el ritmo de la música en vivo mientras disfrutas de cócteles tropicales en nuestra terraza con vista al mar. ¡El lugar perfecto para relajarte y disfrutar de la vida playera!
+        \n\n
+        Cócteles emblemáticos: Cóctel "Ola Marina" (mezcla de ron, coco, piña y mango), "Mariscos a la Parrilla" (variedad de mariscos frescos a la parrilla con limón y hierbas), "Tostones de Plátano" (plátanos verdes fritos, crujientes por fuera y suaves por dentro).
+</string>
+    <string name="bar_02">El Refugio del Montañés</string>
+    <string name="bar_02_direccion">Dirección: Camino de la Montaña 456</string>
+    <string name="bar_02_horario">Miércoles a Domingo, 5:00 PM - 1:00 AM</string>
+    <string name="bar_02_slogan">El Refugio del Montañés: Tu escape a la tranquilidad.</string>
+    <string name="bar_02_detalles">Escápate del bullicio de la ciudad y encuentra refugio en nuestro acogedor bar de montaña. Disfruta de una cerveza artesanal junto a la chimenea, mientras escuchas música folk en vivo. ¡La experiencia perfecta para reconectar con la naturaleza!
+        \n\n
+        Cócteles emblemáticos: "Tabla de Quesos y Embutidos Locales", "Sopa de Lentejas Casera", "Trucha Ahumada de la Montaña".
+</string>
+    <string name="bar_03">La Cueva del Pirata</string>
+    <string name="bar_03_direccion">Dirección: Calle del Puerto 789, Centro Histórico</string>
+    <string name="bar_03_horario">Horario: Martes a Domingo, 6:00 PM - 3:00 AM (Noches de Karaoke los Viernes y Sábados)</string>
+    <string name="bar_03_slogan">¡La Cueva del Pirata: Donde la diversión zarpa cada noche!</string>
+    <string name="bar_03_detalles">¡Ahoy, marineros! Embárcate en una aventura en nuestro bar temático pirata. Disfruta de bebidas exóticas, canta tus canciones favoritas en el karaoke y vive una noche llena de diversión y tesoros escondidos.
+        \n\n
+        Cócteles emblemáticos: Cóctel "El Tesoro del Pirata" (mezcla secreta de ron, frutas tropicales y especias), "Calamares Fritos al Estilo Caribeño", "Patacones con Guacamole".
+</string>
+    <string name="bar_04">El Atardecer</string>
+    <string name="bar_04_direccion">Dirección: Mirador de la Colina 101</string>
+    <string name="bar_04_horario">Horario: Jueves a Domingo, 4:00 PM - 12:00 AM</string>
+    <string name="bar_04_slogan">El Atardecer: El lugar perfecto para enamorarse.</string>
+    <string name="bar_04_detalles">Vive momentos mágicos en El Atardecer, un bar romántico con vistas panorámicas de la ciudad y la puesta de sol. Disfruta de cócteles especiales, música suave y una atmósfera íntima, perfecta para una velada inolvidable en pareja.
+        \n\n
+        Cócteles emblemáticos: Cóctel "Atardecer de Pipocity" (combinación de champagne, fresas y licor de naranja), "Tabla de quesos y frutas con miel", "Fondue de chocolate".
+</string>
+    <string name="bar_05">La Jungla</string>
+    <string name="bar_05_direccion">Dirección: Avenida Principal 567</string>
+    <string name="bar_05_horario">Miércoles a Sábado, 9:00 PM - 4:00 AM</string>
+    <string name="bar_05_slogan">¡La Jungla: Donde la noche se convierte en día!</string>
+    <string name="bar_05_detalles">Sumérgete en la energía vibrante de La Jungla, el epicentro de la vida nocturna en Pipocity. Baila al ritmo de la música electrónica, déjate llevar por las luces de neón y vive una noche llena de emoción y adrenalina.
+        \n\n
+        Cócteles emblemáticos: Cócteles de autor con nombres creativos, "Pizza Jungla" (con ingredientes exóticos y picantes), "Papas Bravas con Salsa de la Casa".
+</string>
+    <string name="cafe_01">Café del Mar</string>
+    <string name="cafe_01_direccion">Dirección: Playa Paraíso, Av. Costanera 123</string>
+    <string name="cafe_01_horario">Horario: Todos los días, 7:00 AM - 7:00 PM</string>
+    <string name="cafe_01_slogan">Café del Mar: Tu dosis diaria de paraíso.</string>
+    <string name="cafe_01_detalles">Siente la arena entre tus dedos y el sol en tu piel mientras disfrutas de un café recién hecho con vistas al mar. ¡El lugar ideal para comenzar el día o relajarte después de un día de playa!
+        \n\n
+        Productos emblemáticos: Café orgánico de especialidad, "Smoothie Tropical" (mezcla de frutas frescas y yogur), "Tostadas de aguacate con huevo pochado".
+</string>
+    <string name="cafe_02">Café de la Montaña</string>
+    <string name="cafe_02_direccion">Dirección: Camino de la Montaña 456</string>
+    <string name="cafe_02_horario">Horario: Viernes a Domingo, 9:00 AM - 6:00 PM</string>
+    <string name="cafe_02_slogan">Café de la Montaña: Un refugio de paz en medio de la naturaleza.</string>
+    <string name="cafe_02_detalles">Rodéate de la naturaleza y disfruta de la tranquilidad de la montaña en nuestro acogedor café. Degusta un café orgánico cultivado localmente y prueba nuestros deliciosos pasteles caseros, elaborados con ingredientes frescos y amor.
+        \n\n
+        Productos emblemáticos: Café de especialidad de la región, "Pastel de Zanahoria con Glaseado de Queso Crema", "Galletas de Avena y Chocolate".
+</string>
+    <string name="cafe_03">El Rincón de los Libros</string>
+    <string name="cafe_03_direccion">Dirección: Calle Central 789</string>
+    <string name="cafe_03_horario">Horario: Lunes a Sábado, 10:00 AM - 9:00 PM</string>
+    <string name="cafe_03_slogan">El Rincón de los Libros: Tu refugio literario en el corazón de la ciudad.</string>
+    <string name="cafe_03_detalles">Sumérgete en el mundo de la literatura en nuestra cafetería acogedora y llena de libros. Disfruta de un café o té mientras te pierdes entre las páginas de tus autores favoritos. ¡El lugar perfecto para los amantes de la lectura y la cultura!
+        \n\n
+        Productos emblemáticos: Café de especialidad, "Té Chai Latte", "Brownies de Chocolate con Nueces".
+</string>
+    <string name="cafe_04">Café del Mercado</string>
+    <string name="cafe_04_direccion">Dirección: Mercado Central, Puesto 101</string>
+    <string name="cafe_04_horario">Horario: Martes a Domingo, 8:00 AM - 5:00 PM</string>
+    <string name="cafe_04_slogan">Café del Mercado: El corazón de Pipocity</string>
+    <string name="cafe_04_detalles"> Vive la energía del mercado local en nuestro café animado y lleno de vida. Disfruta de un café mientras observas el ajetreo diario y te sumerges en la cultura local. ¡El lugar perfecto para conocer gente y descubrir nuevos sabores!
+        \n\n
+        Productos emblemáticos: Café local recién tostado, "Empanadas de Carne", "Jugo de Frutas Frescas".
+</string>
+    <string name="cafe_05">Café Arte</string>
+    <string name="cafe_05_horario">Horario: Miércoles a Domingo, 3:00 PM - 11:00 PM (Música en vivo los Viernes y Sábados)</string>
+    <string name="cafe_05_direccion">Dirección: Calle de las Artes 567</string>
+    <string name="cafe_05_slogan">Café Arte: Donde la inspiración fluye.</string>
+    <string name="cafe_05_detalles"> Despierta tu creatividad en nuestro café bohemio, donde el arte y la música se encuentran. Disfruta de exposiciones de arte local, música en vivo y un ambiente inspirador, perfecto para artistas y amantes de la cultura.
+        \n\n
+        Productos emblemáticos: Café de especialidad, "Vino caliente con especias", "Tabla de quesos y frutas".
+</string>
+    <string name="resto_01">El Pescador Feliz</string>
+    <string name="resto_01_direccion">Dirección: Playa Paraíso, Av. Costanera 123</string>
+    <string name="resto_01_horario">Horario: Todos los días, 12:00 PM - 10:00 PM</string>
+    <string name="resto_01_slogan">El Pescador Feliz: El mar en tu plato.</string>
+    <string name="resto_01_detalles">Deléitate con los sabores del mar en nuestro restaurante a pie de playa. Disfruta de mariscos frescos y pescados a la parrilla, preparados con recetas tradicionales y un toque de creatividad. ¡Una experiencia gastronómica inolvidable con vistas al mar!
+        \n\n
+        Platos emblemáticos: "Ceviche de Pescado Fresco", "Parrillada de Mariscos", "Arroz con Mariscos".
+</string>
+    <string name="resto_02">La Fonda de la Abuela</string>
+    <string name="resto_02_direccion">Dirección: Camino de la Montaña 456</string>
+    <string name="resto_02_horario">Horario: Viernes a Domingo, 12:00 PM - 8:00 PM</string>
+    <string name="resto_02_slogan">La Fonda de la Abuela: Como comer en casa.</string>
+    <string name="resto_02_detalles">Revive los sabores de la infancia en nuestro restaurante tradicional de montaña. Disfruta de platos caseros y recetas familiares, elaborados con ingredientes frescos y mucho amor. ¡Una experiencia reconfortante para el alma!
+        \n\n
+        Platos emblemáticos: "Ajiaco Santafereño", "Bandeja Paisa", "Sancocho de Gallina".
+</string>
+    <string name="resto_03">El Sabor de la India</string>
+    <string name="resto_03_direccion">Dirección: Calle Central 789</string>
+    <string name="resto_03_horario">Horario: Martes a Domingo, 12:00 PM - 11:00 PM</string>
+    <string name="resto_03_slogan">El Sabor de la India: Un viaje de sabores exóticos.</string>
+    <string name="resto_03_detalles">Embárcate en un viaje culinario a la India en nuestro restaurante exótico. Deléitate con una amplia variedad de currys, platos tandoori y panes naan, elaborados con especias auténticas y recetas tradicionales. ¡Una explosión de sabores para tus sentidos!
+        \n\n
+        Platos emblemáticos: "Pollo Tandoori", "Curry de Cordero Madras", "Pan Naan con Queso y Ajo".
+</string>
+    <string name="resto_04">La Terraza Italiana</string>
+    <string name="resto_04_direccion">Dirección: Avenida Principal 101</string>
+    <string name="resto_04_horario">Horario: Lunes a Domingo, 12:00 PM - 11:00 PM</string>
+    <string name="resto_04_slogan">La Terraza Italiana: La dolce vita en Pipocity.</string>
+    <string name="resto_04_detalles">Disfruta de la auténtica cocina italiana en un ambiente elegante con vistas a la ciudad. Deléitate con nuestra pasta fresca hecha a mano, pizzas al horno de leña y una selección de vinos italianos. ¡Una experiencia gastronómica sofisticada y memorable!
+        \n\n
+        Platos emblemáticos: "Spaghetti alla Carbonara", "Pizza Margherita", "Tiramisú Casero".
+</string>
+    <string name="resto_05">El Jardín Secreto</string>
+    <string name="resto_05_direccion">Dirección: Jardín Botánico, Sendero 567</string>
+    <string name="resto_05_horario">Horario: Jueves a Domingo, 6:00 PM - 12:00 AM (Reservas recomendadas)</string>
+    <string name="resto_05_slogan">El Jardín Secreto: Un paraíso culinario escondido.</string>
+    <string name="resto_05_detalles">Descubre un oasis de romanticismo y sabor en nuestro restaurante escondido en un jardín tropical. Disfruta de una cocina fusión creativa, elaborada con ingredientes frescos y locales, en un ambiente íntimo y acogedor. ¡La experiencia perfecta para una cita especial!
+        \n\n
+        Platos emblemáticos: "Ceviche de Mango y Camarones", "Risotto de Hongos Silvestres", "Mousse de Maracuyá".
+</string>
+    <string name="cultural_01">El Fuerte de San Pipo</string>
+    <string name="cultural_01_direccion">Dirección: Cerro de la Fortaleza 123</string>
+    <string name="cultural_01_horario">Martes a Domingo, 9:00 AM - 5:00 PM</string>
+    <string name="cultural_01_slogan">Fuerte de San Pipo: Un viaje al pasado</string>
+    <string name="cultural_01_detalles">Descubre la historia de San Pipo en el Fuerte de San Pipo, una antigua fortaleza en la cima de una colina con vistas impresionantes. Explora el museo y aprende sobre la vida de este valiente conquistador y su papel en la fundación de la ciudad.
+        \n\n
+        Características destacadas:Vistas panorámicas de la ciudad y el mar, Museo con exhibiciones sobre la historia de San Pipo, Recorridos guiados por expertos en historia local, Eventos culturales y actividades para toda la familia.
+</string>
+    <string name="cultural_02">La Catedral de la Montaña</string>
+    <string name="cultural_02_direccion">Dirección: Camino de la Montaña 456</string>
+    <string name="cultural_02_horario">Horario: Todos los días, 8:00 AM - 6:00 PM</string>
+    <string name="cultural_02_slogan">Visita La Catedral de la Montaña y déjate cautivar por su belleza y su historia.</string>
+    <string name="cultural_02_detalles">Descubre la historia y la belleza de La Catedral de la Montaña, una iglesia colonial en el corazón de las montañas. Admira su impresionante arquitectura y los frescos históricos que adornan sus paredes.
+        \n\n
+        Características destacadas: Arquitectura colonial impresionante, Frescos históricos de gran valor artístico, Vistas panorámicas desde la cima de la montaña, Servicios religiosos y eventos culturales</string>
+    <string name="cultural_03">El Mercado de Artesanías</string>
+    <string name="cultural_03_direccion">Dirección: Plaza Central 789</string>
+    <string name="cultural_03_horario">Horario: Viernes a Domingo, 10:00 AM - 7:00 PM</string>
+    <string name="cultural_03_slogan">El Mercado de Artesanías: Donde la creatividad cobra vida. ¡Encuentra el regalo perfecto o llévate un recuerdo inolvidable de Pipocity!</string>
+    <string name="cultural_03_detalles">Sumérgete en un caleidoscopio de colores y creatividad en el Mercado de Artesanías, un vibrante espacio en el corazón de Pipocity donde los talentosos artesanos locales exhiben sus obras maestras.
+        Desde delicadas cerámicas pintadas a mano hasta tejidos vibrantes y joyas únicas, cada pieza cuenta una historia y refleja la rica cultura de la región. Pasea por los puestos, interactúa con los artistas y descubre tesoros únicos que te llevarán un pedacito de Pipocity a casa.!</string>
+    <string name="cultural_04">El Teatro al Aire Libre</string>
+    <string name="cultural_04_direccion">Dirección: Playa Paraíso, Av. Costanera 101</string>
+    <string name="cultural_04_horario">Horario: Según programación de eventos</string>
+    <string name="cultural_04_slogan">El Teatro al Aire Libre: Experiencias inolvidables bajo las estrellas</string>
+    <string name="cultural_04_detalles">Descubre el encanto del El Teatro al Aire Libre, un anfiteatro en la playa donde se realizan conciertos, obras de teatro y eventos culturales bajo las estrellas. Disfruta de la brisa marina, la música en vivo y la magia de la noche en un entorno único.
+        \n\n
+        Características destacadas: Ubicación privilegiada en la playa, Programación variada de eventos culturales, Ambiente íntimo y acogedor, Vistas panorámicas al mar.</string>
+    <string name="cultural_05">El Museo de la Cultura Indígena</string>
+    <string name="cultural_05_direccion">Dirección: Calle de la Historia 567</string>
+    <string name="cultural_05_horario">Horario: Miércoles a Domingo, 10:00 AM - 6:00 PM</string>
+    <string name="cultural_05_slogan">Visita el Museo de la Cultura Indígena y descubre la belleza y la diversidad de las culturas indígenas de la región</string>
+    <string name="cultural_05_detalles">Descubre la rica herencia cultural de las comunidades indígenas de la región en el Museo de la Cultura Indígena. Explora una colección de artefactos tradicionales, aprende sobre sus costumbres y tradiciones, y conoce la historia de su lucha por la preservación de su cultura.
+        \n\n
+        Características destacadas: Exposiciones de artefactos tradicionales, Documentales y presentaciones culturales, Actividades interactivas para niños, Tienda de regalos con productos artesanales.</string>
+
+</resources>
