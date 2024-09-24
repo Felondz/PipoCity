@@ -37,6 +37,7 @@ fun PipoCityApp(
         }
     }
     viewModel.updateNavigationType(navigationType = navigationType)
+    viewModel.onDetailsExpandedChange(navigationType == PipoCityNavigationType.PERMANENT_NAVIGATION_DRAWER)
 
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = "home") {

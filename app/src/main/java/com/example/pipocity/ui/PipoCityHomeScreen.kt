@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.example.pipocity.ui
 
 import android.content.res.Configuration
@@ -23,7 +25,6 @@ import androidx.compose.material3.PermanentNavigationDrawer
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -107,7 +108,6 @@ fun PipoCityHomeScreen(
                             .padding(innerPadding)
                     ) {
                         PipoCityAppContent(
-                            navigationType = pipoCityUiState.navigationType,
                             pipoCityUiState = pipoCityUiState,
                             viewModel = viewModel,
                             navController = navController
@@ -147,7 +147,6 @@ fun PipoCityHomeScreen(
                     }
 
                     PipoCityAppContent(
-                        navigationType = pipoCityUiState.navigationType,
                         pipoCityUiState = pipoCityUiState,
                         viewModel = viewModel,
                         navController = navController
@@ -161,7 +160,6 @@ fun PipoCityHomeScreen(
 
 @Composable
 fun PipoCityAppContent(
-    navigationType: PipoCityNavigationType,
     pipoCityUiState: PipoCityUiState,
     viewModel: PipocityViewModel,
     navController: NavHostController
@@ -197,6 +195,14 @@ fun PipoCityAppContent(
                 },
                 modifier = Modifier.fillMaxSize()
             )
+        }
+
+        Configuration.ORIENTATION_SQUARE -> {
+            TODO()
+        }
+
+        Configuration.ORIENTATION_UNDEFINED -> {
+            TODO()
         }
     }
 }

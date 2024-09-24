@@ -51,15 +51,6 @@ class PipocityViewModel : ViewModel() {
         }
     }
 
-    fun updateDetailsScreenStates(site: Sites) {
-        _UiState.update {
-            it.copy(
-                currentSelectedSite = site,
-
-                )
-        }
-    }
-
     fun resetHomeScreenStates() {
         _UiState.update {
             it.copy(
