@@ -12,6 +12,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentWidth
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -24,6 +26,7 @@ import androidx.compose.material3.PermanentDrawerSheet
 import androidx.compose.material3.PermanentNavigationDrawer
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -39,6 +42,7 @@ import com.example.pipocity.data.Categories
 import com.example.pipocity.data.PipoCityNavigationCategory
 import com.example.pipocity.ui.utils.PipoCityNavigationType
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PipoCityHomeScreen(
     pipoCityUiState: PipoCityUiState,
@@ -70,6 +74,19 @@ fun PipoCityHomeScreen(
     )
 
     Scaffold(
+        topBar = {
+            if (pipoCityUiState.navigationType == PipoCityNavigationType.BOTTOM_NAVIGATION) {
+                CenterAlignedTopAppBar(
+                    title = { Text(stringResource(id = R.string.app_name)) },
+                    navigationIcon = {
+                        PipoCityLogo(
+                            modifier = Modifier
+                                .size(dimensionResource(id = R.dimen.topbar_logo_size))
+                        )
+                    }
+                )
+            }
+        },
         bottomBar = {
             when (pipoCityUiState.navigationType) {
                 PipoCityNavigationType.BOTTOM_NAVIGATION -> {
