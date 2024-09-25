@@ -18,7 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.compose.PipocityTheme
+import com.example.pipocity.ui.theme.PipocityTheme
 import com.example.pipocity.ui.PipoCityApp
 
 
@@ -48,7 +48,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
 
 
 @Preview(showBackground = true)

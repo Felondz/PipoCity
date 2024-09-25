@@ -5,14 +5,11 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -23,6 +20,8 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.dimensionResource
@@ -32,9 +31,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.pipocity.R
 import com.example.pipocity.data.Sites
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.ui.Alignment
-import com.example.pipocity.ui.utils.PipoCityNavigationType
 
 @Composable
 fun PipoCityListOnlycontent(
@@ -78,8 +74,7 @@ fun PipoCityListOnlycontent(
 fun PipoCitySiteListItem(
     site: Sites,
     selected: Boolean,
-    onCardClick: () -> Unit,
-    modifier: Modifier = Modifier
+    onCardClick: () -> Unit
 ) {
     Card(
         modifier = Modifier
@@ -122,32 +117,6 @@ fun PipoCitySiteListItem(
     }
 }
 
-
-@Composable
-fun PipoCityListAndDetails(
-    pipoCityUiState: PipoCityUiState,
-    viewModel: PipocityViewModel,
-    onSitePressed: (Sites) -> Unit,
-    modifier: Modifier = Modifier
-) {
-    Row(modifier = modifier.fillMaxSize()) {
-
-        PipoCityListOnlycontent(
-            pipoCityUiState = pipoCityUiState,
-            viewModel = viewModel,
-            onSitePressed = onSitePressed,
-            modifier = Modifier.weight(1f)
-        )
-
-
-        DetailsScreenHeader(
-            pipoCityUiState = pipoCityUiState,
-            site = pipoCityUiState.currentSelectedSite,
-            modifier = Modifier.weight(1f)
-        )
-
-    }
-}
 
 @Composable
 fun ImageSite(

@@ -112,8 +112,6 @@ fun PipoCityHomeScreen(
                             viewModel = viewModel,
                             navController = navController
                         )
-
-
                         PipoCityDetailsScreen(
                             pipoCityUiState = pipoCityUiState,
                             viewModel = viewModel,

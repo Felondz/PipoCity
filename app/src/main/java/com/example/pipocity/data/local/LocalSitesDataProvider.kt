@@ -1,7 +1,6 @@
 package com.example.pipocity.data.local
 
 import com.example.pipocity.R
-import com.example.pipocity.data.Categories
 import com.example.pipocity.data.PipoCityNavigationCategory
 import com.example.pipocity.data.Sites
 
@@ -18,7 +17,7 @@ val defaultSite = Sites(
 )
 
 
-    val sites = listOf(
+    private val sites = listOf(
         Sites(
             id = 1,
             category = PipoCityNavigationCategory.BARS,

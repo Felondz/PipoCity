@@ -4,6 +4,7 @@ package com.example.pipocity.ui
 import android.content.res.Configuration
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.platform.LocalConfiguration
 import com.example.pipocity.ui.utils.PipoCityNavigationType
@@ -27,8 +28,7 @@ fun PipoCityApp(
             PipoCityNavigationType.PERMANENT_NAVIGATION_DRAWER
         }
 
-        windowSize == WindowWidthSizeClass.Medium ||
-                (windowSize == WindowWidthSizeClass.Compact && orientation == Configuration.ORIENTATION_LANDSCAPE) -> {
+        windowSize == WindowWidthSizeClass.Medium || (windowSize == WindowWidthSizeClass.Compact && orientation == Configuration.ORIENTATION_LANDSCAPE) -> {
             PipoCityNavigationType.NAVIGATION_RAIL
         }
 
@@ -37,27 +37,28 @@ fun PipoCityApp(
         }
     }
     viewModel.updateNavigationType(navigationType = navigationType)
-    viewModel.onDetailsExpandedChange(navigationType == PipoCityNavigationType.PERMANENT_NAVIGATION_DRAWER)
 
+    viewModel.onDetailsExpandedChange(navigationType == PipoCityNavigationType.PERMANENT_NAVIGATION_DRAWER)
     val navController = rememberNavController()
+    SideEffect {if (navigationType == PipoCityNavigationType.PERMANENT_NAVIGATION_DRAWER)
+        navController.navigate("home"){
+            popUpTo("home"){inclusive = true}
+        }}
+
     NavHost(navController = navController, startDestination = "home") {
         composable("home") {
-            PipoCityHomeScreen(
-                pipoCityUiState = pipoCityUiState,
+            PipoCityHomeScreen(pipoCityUiState = pipoCityUiState,
                 viewModel = viewModel,
                 navController = navController,
                 onTabPressed = { pipoCityNavigationCategory ->
                     viewModel.updateCurrentCategory(pipoCityNavigationCategory = pipoCityNavigationCategory)
                     viewModel.resetHomeScreenStates()
-                }
-            )
+                })
         }
         composable("details_screen") {
-            PipoCityDetailsScreen(
-                pipoCityUiState = pipoCityUiState,
+            PipoCityDetailsScreen(pipoCityUiState = pipoCityUiState,
                 viewModel = viewModel,
-                onBackPressed = { navController.popBackStack() }
-            )
+                onBackPressed = { navController.popBackStack() })
         }
     }
 }
